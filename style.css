@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; 
+    ;
+  }
+  
+  .container {
+    background-color: #071e3d; 
+    color: #fff; 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .logo img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .header {
+    background-color:#1f4287; 
+    color: #fff;
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .button-container {
+    display: flex; 
+  }
+  
+  .button {
+    padding: 10px 20px; 
+    background-color: #f1efb9; 
+    color: black; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    margin-left: 20px; 
+  }
+  
+  .button.logout {
+    background-color: #f1efb9; 
+    color: black; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-right: 20px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .button.logout:hover {
+    background-color: #fbfae1; 
+  }
+  
+  .button:hover {
+    background-color: #fbfae1; 
+  }
+  
+  .image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 60px; 
+  }
+  
+  .image-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    text-align: center; 
+  }
+  
+  .image-item img {
+    max-width: 80%; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  
+  .image-button {
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 20px 40px; 
+    background-color: #278ea5; 
+    color: black; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  .image-button:hover {
+    background-color: #21e6c1; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  
+  
+
+
